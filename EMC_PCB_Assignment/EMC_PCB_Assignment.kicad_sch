@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J7"
-				(at -6.35 -1.2701 0)
+				(at 6.35 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -22,7 +22,7 @@
 				)
 			)
 			(property "Value" "USB_B_Micro"
-				(at -6.35 1.2699 0)
+				(at 6.35 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -253,7 +253,7 @@
 				(pin power_out line
 					(at 7.62 6.35 180)
 					(length 2.54)
-					(name "VBUS"
+					(name "XUSB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -304,10 +304,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 7.62 -1.27 180)
 					(length 2.54)
-					(name "ID"
+					(name "UGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -322,10 +322,10 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 7.62 -3.81 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -343,7 +343,7 @@
 				(pin passive line
 					(at 7.62 -6.35 180)
 					(length 2.54)
-					(name "Shield"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2943,22 +2943,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 36.322 9.144 0)
+			(property "Reference" "IC3"
+				(at 43.7515 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "ATMEGA16U2-MU"
-				(at 36.322 6.604 0)
+				(at 43.7515 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "QFN50P500X500X100-33N-D"
@@ -3063,7 +3061,7 @@
 			(symbol "ATMEGA16U2-MU_1_1"
 				(rectangle
 					(start 5.08 3.81)
-					(end 81.28 -45.72)
+					(end 76.2 -45.72)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3217,7 +3215,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -40.64 180)
+					(at 81.28 -40.64 180)
 					(length 5.08)
 					(name "PB3_(PDO_/_MISO_/_PCINT3)"
 						(effects
@@ -3235,7 +3233,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -38.1 180)
+					(at 81.28 -38.1 180)
 					(length 5.08)
 					(name "PB4_(T1_/_PCINT4)"
 						(effects
@@ -3253,7 +3251,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -35.56 180)
+					(at 81.28 -35.56 180)
 					(length 5.08)
 					(name "PB5_(PCINT5)"
 						(effects
@@ -3289,7 +3287,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -33.02 180)
+					(at 81.28 -33.02 180)
 					(length 5.08)
 					(name "PB6_(PCINT6)"
 						(effects
@@ -3307,7 +3305,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -30.48 180)
+					(at 81.28 -30.48 180)
 					(length 5.08)
 					(name "PB7_(PCINT7_/_OC.0A_/_OC.1C)"
 						(effects
@@ -3325,7 +3323,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -27.94 180)
+					(at 81.28 -27.94 180)
 					(length 5.08)
 					(name "PC7_(INT4_/_ICP1_/_CLKO)"
 						(effects
@@ -3343,7 +3341,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -25.4 180)
+					(at 81.28 -25.4 180)
 					(length 5.08)
 					(name "PC6_(OC.1A_/_PCINT8)"
 						(effects
@@ -3361,7 +3359,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -22.86 180)
+					(at 81.28 -22.86 180)
 					(length 5.08)
 					(name "~{RESET_(PC1_}/_DW)"
 						(effects
@@ -3379,7 +3377,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -20.32 180)
+					(at 81.28 -20.32 180)
 					(length 5.08)
 					(name "PC5_(_PCINT9/_OC.1B)"
 						(effects
@@ -3397,7 +3395,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -17.78 180)
+					(at 81.28 -17.78 180)
 					(length 5.08)
 					(name "PC4_(PCINT10)"
 						(effects
@@ -3415,7 +3413,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -15.24 180)
+					(at 81.28 -15.24 180)
 					(length 5.08)
 					(name "UCAP"
 						(effects
@@ -3433,7 +3431,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -12.7 180)
+					(at 81.28 -12.7 180)
 					(length 5.08)
 					(name "UGND"
 						(effects
@@ -3451,7 +3449,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -10.16 180)
+					(at 81.28 -10.16 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -3487,7 +3485,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -7.62 180)
+					(at 81.28 -7.62 180)
 					(length 5.08)
 					(name "D-"
 						(effects
@@ -3505,7 +3503,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -5.08 180)
+					(at 81.28 -5.08 180)
 					(length 5.08)
 					(name "UVCC"
 						(effects
@@ -3523,7 +3521,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 -2.54 180)
+					(at 81.28 -2.54 180)
 					(length 5.08)
 					(name "AVCC"
 						(effects
@@ -3541,7 +3539,7 @@
 					)
 				)
 				(pin passive line
-					(at 87.63 0 180)
+					(at 81.28 0 180)
 					(length 5.08)
 					(name "EP"
 						(effects
@@ -4307,6 +4305,383 @@
 				)
 			)
 		)
+		(symbol "SamacSys_Parts:BLM21BD272SN1L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL1"
+				(at 10.16 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BLM21BD272SN1L"
+				(at 10.16 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BLM21BD222SH1K"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BD272SN1%23"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BLM21_N1L Series EMI Suppression Filter 2700+/-25% at 100MHz 200mA @85"
+				(at 4.064 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BLM21BD272SN1L"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-BLM21BD272SN1L"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BD272SN1L?qs=s0nI4G%252BrgFX0jnGGavB7Jg%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BLM21BD272SN1L"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/blm21bd272sn1l/murata-manufacturing?region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BLM21BD272SN1L_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 1.27 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:CG0603MLC-05E"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CG0603MLC-05E"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "VARC1608X55N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.farnell.com/datasheets/1785244.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CG0603MLC-05E"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CG0603MLC-05E"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0603MLC-05E?qs=lDok7oSghXVLNKMK69q%252BFQ%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "CG0603MLC-05E"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0603mlc-05e/bourns?utm_currency=USD&region=nac"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CG0603MLC-05E_1_1"
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 2.54) (xy 13.97 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:LP2985AIM5-3.0_NOPB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5012,6 +5387,190 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:MF-MSMF050-2"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MF-MSMF050-2"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "FUSC4632X85N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/pdfs/mfmsmf.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, PTC, Resettable, SMD, 1812, 500mA Bourns 0.5A Surface Mount Resettable Fuse, 15 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MF-MSMF050-2"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-MF-MSMF050-2"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-MSMF050-2?qs=t3shhpq1i1DZ7OBD5kLNoA%3D%3D"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "MF-MSMF050-2"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mf-msmf050-2/bourns?utm_currency=USD&region=europe"
+				(at 13.97 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MF-MSMF050-2_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5768,6 +6327,12 @@
 		(uuid "1261711c-4cfe-459a-bd67-a7e383ded205")
 	)
 	(junction
+		(at 166.37 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130e6d4a-3b10-4eee-a270-0bde3c5299e4")
+	)
+	(junction
 		(at 212.09 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5790,6 +6355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f3ea8a2-b283-4765-a7d3-e60e58ef0d34")
+	)
+	(junction
+		(at 138.43 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2428dcef-c96e-441c-afa7-9dc42f56ce1f")
 	)
 	(junction
 		(at 147.32 184.15)
@@ -5846,6 +6417,12 @@
 		(uuid "581d947a-2f1d-4ab9-b184-1806814fbf97")
 	)
 	(junction
+		(at 162.56 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a86218-0aa0-4f0f-a43d-9f46bff0d0c7")
+	)
+	(junction
 		(at 46.99 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5880,6 +6457,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f240c35-a1e7-48f6-b9a3-ea706509e8c5")
+	)
+	(junction
+		(at 152.4 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81db1b68-02f8-46ef-aff2-6d25449fc463")
 	)
 	(junction
 		(at 40.64 63.5)
@@ -5948,6 +6531,18 @@
 		(uuid "a40d6e12-4962-4fe4-8b61-399749652b1c")
 	)
 	(junction
+		(at 162.56 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af46e070-9ebe-4f5e-8964-ad6770b9f753")
+	)
+	(junction
+		(at 138.43 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b743a0f1-b9b7-41c4-8317-0f6731474bf1")
+	)
+	(junction
 		(at 245.11 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5972,10 +6567,22 @@
 		(uuid "c2557ab0-32b8-4fe0-83bc-37f477a55f3c")
 	)
 	(junction
+		(at 167.64 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f1e89f-71e3-4369-852c-a2ac9db911b8")
+	)
+	(junction
 		(at 175.26 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4e1c2c-1024-4d40-a8d1-41fb65a988f3")
+	)
+	(junction
+		(at 162.56 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4c25d59-6749-47ec-a061-d907fda29289")
 	)
 	(junction
 		(at 36.83 177.8)
@@ -6150,6 +6757,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a18df0-9bd2-4133-b3a6-f755362171b2")
+	)
+	(wire
+		(pts
 			(xy 212.09 133.35) (xy 213.36 133.35)
 		)
 		(stroke
@@ -6200,13 +6817,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 146.05 104.14)
+			(xy 137.16 76.2) (xy 138.43 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c72d220-1b57-41b7-bab6-306ca06cf297")
+		(uuid "0bd7942e-cfd9-4f8d-90d1-b843803ea3dc")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d160351-81d6-4d7e-b2e9-e289408c7d7e")
 	)
 	(wire
 		(pts
@@ -6227,6 +6854,16 @@
 			(type default)
 		)
 		(uuid "0e1a2696-8cbe-4951-9758-3bbcc7657c2a")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd49f88-f96f-4946-a8db-a60384ea9889")
 	)
 	(wire
 		(pts
@@ -6257,6 +6894,16 @@
 			(type default)
 		)
 		(uuid "106dfcff-25f1-44e7-bf1f-a99ac741ceca")
+	)
+	(wire
+		(pts
+			(xy 151.13 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108f0895-3155-4d5f-89bf-9a4462d0c9a0")
 	)
 	(wire
 		(pts
@@ -6330,6 +6977,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c61c813-e563-4844-bc9d-df8e396ca715")
+	)
+	(wire
+		(pts
 			(xy 175.26 104.14) (xy 186.69 104.14)
 		)
 		(stroke
@@ -6350,6 +7007,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffa205d-08fa-494c-962c-293ee0aee7ff")
+	)
+	(wire
+		(pts
 			(xy 233.68 130.81) (xy 245.11 130.81)
 		)
 		(stroke
@@ -6357,6 +7024,16 @@
 			(type default)
 		)
 		(uuid "214903d6-f4a7-4ff4-bd6c-3cb42d205446")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a468d3-e3f9-47aa-afbb-42011fa5b5a2")
 	)
 	(wire
 		(pts
@@ -6410,6 +7087,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 71.12) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250d3268-7c00-4cb7-97f5-2861e1e9add7")
+	)
+	(wire
+		(pts
 			(xy 256.54 128.27) (xy 256.54 130.81)
 		)
 		(stroke
@@ -6447,6 +7134,16 @@
 			(type default)
 		)
 		(uuid "288555f4-75ad-4b61-bdd9-68a29aeb9fdd")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b8c18d-d334-4f46-99ac-978397a4a4c8")
 	)
 	(wire
 		(pts
@@ -6568,6 +7265,16 @@
 			(type default)
 		)
 		(uuid "367574de-4cf5-4c40-ac41-821c377790bb")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36abbf61-cafd-440f-93b2-579994da4020")
 	)
 	(wire
 		(pts
@@ -6711,6 +7418,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 96.52) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457b8d2f-bcff-460e-96a2-8eaa45dea471")
+	)
+	(wire
+		(pts
 			(xy 34.29 177.8) (xy 36.83 177.8)
 		)
 		(stroke
@@ -6748,6 +7465,36 @@
 			(type default)
 		)
 		(uuid "47877eed-653e-4da3-b686-c28a6c456158")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ef3275-98e1-40d3-bb1a-73228e106b58")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49758fae-8a7b-411f-8e5c-66dd64907705")
+	)
+	(wire
+		(pts
+			(xy 170.18 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4999b3c9-07f0-4016-8a01-9df01254d081")
 	)
 	(wire
 		(pts
@@ -6791,16 +7538,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 106.68) (xy 146.05 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50822e56-d181-490b-b1e4-2c94b236c10e")
-	)
-	(wire
-		(pts
 			(xy 139.7 184.15) (xy 143.51 184.15)
 		)
 		(stroke
@@ -6811,6 +7548,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517608e7-dffc-4935-acae-c55c86905aaf")
+	)
+	(wire
+		(pts
 			(xy 130.81 173.99) (xy 134.62 173.99)
 		)
 		(stroke
@@ -6818,6 +7565,26 @@
 			(type default)
 		)
 		(uuid "526a06c5-e14f-45c2-890a-2a9d20e9de2d")
+	)
+	(wire
+		(pts
+			(xy 151.13 123.19) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545fc35f-9037-4605-ab3f-b9692841a7db")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f45fdf-8a7f-489b-a92d-13eb0d72f1c4")
 	)
 	(wire
 		(pts
@@ -6858,6 +7625,16 @@
 			(type default)
 		)
 		(uuid "5a6d5fb5-3754-45b8-951c-c7f17214b246")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1667bd-87a5-42ff-9cd9-efbb6e9c6c32")
 	)
 	(wire
 		(pts
@@ -6991,6 +7768,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 81.28) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cb738d-55b0-4c8c-8b8d-66e1d8583881")
+	)
+	(wire
+		(pts
 			(xy 213.36 31.75) (xy 213.36 41.91)
 		)
 		(stroke
@@ -7028,6 +7815,16 @@
 			(type default)
 		)
 		(uuid "699a63e7-4633-4041-be7f-cab754366ea1")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a502952-6ebf-4673-9d20-6d4d2997558e")
 	)
 	(wire
 		(pts
@@ -7151,6 +7948,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 109.22) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7507107c-718f-473e-966b-8442f48cc71c")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7685c999-36a7-488b-9ad0-2c3461527018")
+	)
+	(wire
+		(pts
 			(xy 147.32 151.13) (xy 147.32 153.67)
 		)
 		(stroke
@@ -7201,16 +8018,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 168.91 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a1637b6-d2fe-45bb-8e78-d487faf71861")
-	)
-	(wire
-		(pts
 			(xy 48.26 172.72) (xy 54.61 172.72)
 		)
 		(stroke
@@ -7238,6 +8045,16 @@
 			(type default)
 		)
 		(uuid "7bed7757-12bb-4f01-96e9-a93c9735c594")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd6620d-779b-425b-809e-f450e1d06017")
 	)
 	(polyline
 		(pts
@@ -7282,6 +8099,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 73.66) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84861443-7913-45a2-9d72-d1e84c9f3840")
+	)
+	(wire
+		(pts
 			(xy 130.81 161.29) (xy 142.24 161.29)
 		)
 		(stroke
@@ -7302,6 +8129,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856ac278-36a8-4d71-a3cb-f7ec25833722")
+	)
+	(wire
+		(pts
 			(xy 171.45 179.07) (xy 171.45 184.15)
 		)
 		(stroke
@@ -7319,16 +8156,6 @@
 			(type default)
 		)
 		(uuid "8a9ba685-3d74-4ac3-ad9f-6f8e046a3a65")
-	)
-	(wire
-		(pts
-			(xy 143.51 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8afb0aac-1a8b-4ee3-a035-c38c5a118526")
 	)
 	(wire
 		(pts
@@ -7382,6 +8209,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eeea72b-b727-4443-b31c-73a8834bccc3")
+	)
+	(wire
+		(pts
 			(xy 48.26 152.4) (xy 54.61 152.4)
 		)
 		(stroke
@@ -7392,6 +8229,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 92.71) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bb4f18-990a-4228-9c09-f685e790ba77")
+	)
+	(wire
+		(pts
 			(xy 50.8 109.22) (xy 50.8 105.41)
 		)
 		(stroke
@@ -7399,16 +8246,6 @@
 			(type default)
 		)
 		(uuid "937e1067-d2e0-44d8-99b4-a8ed4120b56b")
-	)
-	(wire
-		(pts
-			(xy 143.51 71.12) (xy 147.32 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94f3bc1f-a0d1-4e8a-8456-289009026a89")
 	)
 	(wire
 		(pts
@@ -7492,6 +8329,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 104.14) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d228e3c-c986-4c5c-b85c-f842c09f27ec")
+	)
+	(wire
+		(pts
 			(xy 36.83 81.28) (xy 46.99 81.28)
 		)
 		(stroke
@@ -7552,6 +8399,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01fd4d2-f6fd-4a57-b070-d679212227d5")
+	)
+	(wire
+		(pts
 			(xy 245.11 80.01) (xy 245.11 86.36)
 		)
 		(stroke
@@ -7579,6 +8436,16 @@
 			(type default)
 		)
 		(uuid "a25d5cf0-c1ed-4087-8a13-27d44f08da1b")
+	)
+	(wire
+		(pts
+			(xy 151.13 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2763d92-6bdb-4898-8fa4-6f88c19f25c2")
 	)
 	(wire
 		(pts
@@ -7672,6 +8539,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a968f1aa-e358-4ec2-8a53-8baaf4b70f82")
+	)
+	(wire
+		(pts
 			(xy 36.83 162.56) (xy 41.91 162.56)
 		)
 		(stroke
@@ -7679,6 +8556,16 @@
 			(type default)
 		)
 		(uuid "aa20d04e-0380-4fa9-be88-2690c5c576af")
+	)
+	(wire
+		(pts
+			(xy 157.48 76.2) (xy 168.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa216e95-6d81-4aa2-9870-bb0ccf039cb6")
 	)
 	(wire
 		(pts
@@ -7822,6 +8709,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d3f130-3f0a-4a23-bb11-30365af05c39")
+	)
+	(wire
+		(pts
 			(xy 245.11 71.12) (xy 245.11 72.39)
 		)
 		(stroke
@@ -7912,6 +8809,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c287723a-049d-4747-81e6-f3b5ad9de194")
+	)
+	(wire
+		(pts
 			(xy 276.86 133.35) (xy 278.13 133.35)
 		)
 		(stroke
@@ -7942,16 +8849,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 146.05 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5a75a22-9503-4c55-9052-e73fb61a944e")
-	)
-	(wire
-		(pts
 			(xy 30.48 73.66) (xy 30.48 76.2)
 		)
 		(stroke
@@ -7969,6 +8866,16 @@
 			(type default)
 		)
 		(uuid "c6498dab-a545-4461-8a0b-b8526e6b0667")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79343b9-503c-4da2-8ad5-4bc0d2929999")
 	)
 	(wire
 		(pts
@@ -8019,6 +8926,26 @@
 			(type default)
 		)
 		(uuid "cc9f5339-36db-49fd-9902-29fe95091e00")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaf15fa-dc3a-499f-8daf-4c0b0b4b5d8f")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4d5693-6b58-412a-8482-8c3bb413742b")
 	)
 	(wire
 		(pts
@@ -8142,6 +9069,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 104.14) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d772362d-6bac-4a4e-8487-869f795586d5")
+	)
+	(wire
+		(pts
 			(xy 228.6 63.5) (xy 228.6 60.96)
 		)
 		(stroke
@@ -8169,16 +9106,6 @@
 			(type default)
 		)
 		(uuid "d89d305c-da2f-47c0-95b4-a1da1b0c5aa9")
-	)
-	(wire
-		(pts
-			(xy 143.51 109.22) (xy 146.05 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a863c0-0782-41eb-b21b-3b73f420baf9")
 	)
 	(wire
 		(pts
@@ -8262,13 +9189,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 111.76) (xy 146.05 111.76)
+			(xy 137.16 106.68) (xy 142.24 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dea26573-f9cb-4a47-bc85-f6019029119b")
+		(uuid "ddc40c18-fe74-4ec1-94b5-57e319e8c526")
 	)
 	(wire
 		(pts
@@ -8412,6 +9339,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 73.66) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40eb4dc-5f34-4cae-9c77-b1b4e8274dbb")
+	)
+	(wire
+		(pts
 			(xy 153.67 170.18) (xy 153.67 163.83)
 		)
 		(stroke
@@ -8489,6 +9426,16 @@
 			(type default)
 		)
 		(uuid "f89d8060-bb70-42de-b701-c1b2d384dfb4")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d7a5e8-8141-45e6-9211-f771386dc78f")
 	)
 	(wire
 		(pts
@@ -8581,6 +9528,17 @@
 		)
 		(uuid "013864cf-491d-4aa3-ae45-5a7b05579179")
 	)
+	(label "D-"
+		(at 151.13 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01c1597a-3695-4139-bd19-19a0ee44187d")
+	)
 	(label "RN1C+"
 		(at 46.99 105.41 0)
 		(fields_autoplaced yes)
@@ -8648,7 +9606,7 @@
 		(uuid "14a28c07-d84b-4397-a7e3-2d96786d7765")
 	)
 	(label "PB6"
-		(at 146.05 104.14 0)
+		(at 142.24 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8713,6 +9671,17 @@
 		)
 		(uuid "230cc61c-cf1b-4642-939f-56506bc57490")
 	)
+	(label "D+"
+		(at 165.1 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "261acab4-8e4a-4838-bb87-247e8bd35dbd")
+	)
 	(label "IO5"
 		(at 182.88 93.98 0)
 		(fields_autoplaced yes)
@@ -8736,7 +9705,7 @@
 		(uuid "278b4713-a92f-441b-8cf4-955be4a8562b")
 	)
 	(label "RESET2"
-		(at 146.05 93.98 0)
+		(at 142.24 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8791,7 +9760,7 @@
 		(uuid "2e87f8fd-536e-4132-a9ec-95ef29ea8ee5")
 	)
 	(label "PB5"
-		(at 146.05 106.68 0)
+		(at 142.24 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8868,7 +9837,7 @@
 		(uuid "4845c443-4dd0-4310-be6a-b0f434918911")
 	)
 	(label "PB7"
-		(at 146.05 101.6 0)
+		(at 142.24 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8900,6 +9869,17 @@
 		)
 		(uuid "535a12a7-5e6a-49aa-a1c2-a470c136f13f")
 	)
+	(label "D+"
+		(at 151.13 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53b177d1-86eb-447d-9a54-55fe2671124f")
+	)
 	(label "MOSI2"
 		(at 50.8 111.76 0)
 		(fields_autoplaced yes)
@@ -8921,6 +9901,17 @@
 			(justify left bottom)
 		)
 		(uuid "5892d58a-6c96-4786-88f4-fb76c0dcced4")
+	)
+	(label "D-A"
+		(at 151.13 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cfd101a-b4ab-4d15-8395-0ce8f7b8bba5")
 	)
 	(label "ADCC"
 		(at 256.54 119.38 0)
@@ -8976,6 +9967,17 @@
 			(justify left bottom)
 		)
 		(uuid "62a0bb63-565c-4e18-8d72-b75963557f36")
+	)
+	(label "D-"
+		(at 165.1 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64237bb6-7b3a-4057-8909-7efad218f3c6")
 	)
 	(label "IO0"
 		(at 48.26 144.78 0)
@@ -9220,7 +10222,7 @@
 		(uuid "a43a3d21-c69a-408c-b159-bd54d7398773")
 	)
 	(label "PB4"
-		(at 146.05 109.22 0)
+		(at 142.24 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9231,7 +10233,7 @@
 		(uuid "a44bb451-ac5e-48d7-9768-f3d799b027cd")
 	)
 	(label "MISO2"
-		(at 146.05 111.76 0)
+		(at 142.24 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9351,6 +10353,17 @@
 		)
 		(uuid "c7c0e1c1-647c-400b-981f-a7d2e224bdea")
 	)
+	(label "D-A"
+		(at 140.97 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccb6ff5e-cb65-423d-a175-7c789bf08274")
+	)
 	(label "RN1D-"
 		(at 147.32 182.88 0)
 		(fields_autoplaced yes)
@@ -9428,6 +10441,17 @@
 		)
 		(uuid "dd17ef6b-db6f-431c-9ab9-b05defbd45c3")
 	)
+	(label "D+A"
+		(at 140.97 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e15bcf32-76a6-46ef-b373-ef8fa776a889")
+	)
 	(label "IO1"
 		(at 12.7 153.67 0)
 		(fields_autoplaced yes)
@@ -9449,6 +10473,17 @@
 			(justify left bottom)
 		)
 		(uuid "e45c1b5b-00fe-44b7-82a1-424de7a2acb8")
+	)
+	(label "D+A"
+		(at 151.13 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e70528dd-6f85-4727-aea5-3b33c9feadb3")
 	)
 	(label "IO0"
 		(at 182.88 81.28 0)
@@ -11838,6 +12873,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d4e6912-df73-481c-b663-b7b00e50837b")
+		(property "Reference" "C22"
+			(at 145.542 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 148.844 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "133d000e-f9bb-4441-b869-730a29d37e65")
+		)
+		(pin "1"
+			(uuid "6d260600-345a-4733-998f-c74bdc56f499")
+		)
+		(instances
+			(project ""
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:OPA4350UA")
 		(at 237.49 90.17 0)
 		(unit 1)
@@ -12007,6 +13109,73 @@
 			(project ""
 				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
 					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55286a06-7984-4c39-835b-ed5f8d155d54")
+		(property "Reference" "#PWR023"
+			(at 137.16 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "369cc4e2-5b6f-403d-a4e2-8f68708f1284")
+		)
+		(instances
+			(project ""
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12350,6 +13519,145 @@
 			(project ""
 				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:MF-MSMF050-2")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6468845a-84a3-434b-90cb-f685d65927c3")
+		(property "Reference" "F1"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MF-MSMF050-2"
+			(at 154.178 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FUSC4632X85N"
+			(at 153.67 172.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/pdfs/mfmsmf.pdf"
+			(at 153.67 272.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, PTC, Resettable, SMD, 1812, 500mA Bourns 0.5A Surface Mount Resettable Fuse, 15 V"
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 153.67 472.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 153.67 572.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MF-MSMF050-2"
+			(at 153.67 672.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-MF-MSMF050-2"
+			(at 153.67 772.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-MSMF050-2?qs=t3shhpq1i1DZ7OBD5kLNoA%3D%3D"
+			(at 153.67 872.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MF-MSMF050-2"
+			(at 153.67 972.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mf-msmf050-2/bourns?utm_currency=USD&region=europe"
+			(at 153.67 1072.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15fbde34-a635-4ee6-9dbb-99ecafc61874")
+		)
+		(pin "1"
+			(uuid "246441a6-724c-4ec0-b726-0eb72f799c9b")
+		)
+		(instances
+			(project ""
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -12785,6 +14093,145 @@
 			(project ""
 				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CG0603MLC-05E")
+		(at 152.4 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f1de5e2-a6e0-48ec-9c62-e193f247968a")
+		(property "Reference" "RV1"
+			(at 160.528 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CG0603MLC-05E"
+			(at 157.734 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VARC1608X55N"
+			(at 166.37 192.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/1785244.pdf"
+			(at 166.37 292.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 166.37 492.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 166.37 592.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CG0603MLC-05E"
+			(at 166.37 692.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CG0603MLC-05E"
+			(at 166.37 792.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0603MLC-05E?qs=lDok7oSghXVLNKMK69q%252BFQ%3D%3D"
+			(at 166.37 892.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CG0603MLC-05E"
+			(at 166.37 992.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0603mlc-05e/bourns?utm_currency=USD&region=nac"
+			(at 166.37 1092.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f731cf-72ee-428f-a00d-de98d5daac9f")
+		)
+		(pin "2"
+			(uuid "f06351be-d22c-41c9-b9c6-9d9bd85e8c9c")
+		)
+		(instances
+			(project ""
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -13705,6 +15152,146 @@
 			(project ""
 				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:BLM21BD272SN1L")
+		(at 147.32 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94389973-b041-4953-b088-48f14c42b564")
+		(property "Reference" "FL1"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM21BD272SN1L"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLM21BD222SH1K"
+			(at 163.83 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21BD272SN1%23"
+			(at 163.83 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BLM21_N1L Series EMI Suppression Filter 2700+/-25% at 100MHz 200mA @85"
+			(at 151.384 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 163.83 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 163.83 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM21BD272SN1L"
+			(at 163.83 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-BLM21BD272SN1L"
+			(at 163.83 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM21BD272SN1L?qs=s0nI4G%252BrgFX0jnGGavB7Jg%3D%3D"
+			(at 163.83 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BLM21BD272SN1L"
+			(at 163.83 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/blm21bd272sn1l/murata-manufacturing?region=nac"
+			(at 163.83 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba340035-f587-4aa1-a17c-0fae8bfafdf9")
+		)
+		(pin "2"
+			(uuid "4927cd4a-ffe2-4f17-97ed-35070b0ba923")
+		)
+		(instances
+			(project ""
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "FL1")
 					(unit 1)
 				)
 			)
@@ -14990,6 +16577,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack02_SIP")
+		(at 160.02 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc54eb82-dc57-45e9-90c2-f0ccffb44de6")
+		(property "Reference" "RN4"
+			(at 161.798 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 165.608 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+			(at 160.02 135.255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 resistor network, parallel topology, SIP package"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "49ba1cd3-36a0-4221-9eae-cf6cd75523ca")
+		)
+		(pin "4"
+			(uuid "2cb5f7da-8394-4fd7-ba4a-f010de5270e8")
+		)
+		(pin "2"
+			(uuid "206827fd-f8cc-4a66-ab02-d1229e4844c5")
+		)
+		(pin "1"
+			(uuid "a2820ecf-d737-45a0-a6e9-04a3297a8955")
+		)
+		(instances
+			(project "EMC_PCB_Assignment"
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 67.31 0)
 		(unit 1)
@@ -16178,6 +17840,145 @@
 			(project ""
 				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:CG0603MLC-05E")
+		(at 152.4 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe8c034b-9fce-40d0-a8a1-9a8fa9611b90")
+		(property "Reference" "RV2"
+			(at 154.432 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CG0603MLC-05E"
+			(at 161.544 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VARC1608X55N"
+			(at 166.37 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/1785244.pdf"
+			(at 166.37 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 166.37 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 166.37 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CG0603MLC-05E"
+			(at 166.37 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CG0603MLC-05E"
+			(at 166.37 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0603MLC-05E?qs=lDok7oSghXVLNKMK69q%252BFQ%3D%3D"
+			(at 166.37 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CG0603MLC-05E"
+			(at 166.37 1000.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0603mlc-05e/bourns?utm_currency=USD&region=nac"
+			(at 166.37 1100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce59556d-d02c-4db2-b1b0-b4056925f676")
+		)
+		(pin "2"
+			(uuid "fec5d31c-275a-4f34-91e7-dac5eb536cbf")
+		)
+		(instances
+			(project "EMC_PCB_Assignment"
+				(path "/c77eb79f-683d-46ef-8e0b-7bd4761404ac"
+					(reference "RV2")
 					(unit 1)
 				)
 			)
