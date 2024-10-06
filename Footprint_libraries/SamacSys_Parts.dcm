@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LT8636EV#PBF
+D 42V, 5A/7A Peak Synchronous Step-Down Silent Switcher with 2.5uA Quiescent Current
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt8636-8637.pdf
+$ENDCMP
+#
+$CMP LP2985AIM5-3.0_NOPB
+D Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages
+K
+F http://www.ti.com/lit/ds/symlink/lp2985-n.pdf
+$ENDCMP
+#
+$CMP ATMEGA16U2-MU
+D 8-bit Microcontrollers - MCU AVR USB 8K FLASH AVR USB 16K FLASH
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-PU
+D MICROCHIP - ATMEGA328P-PU. - MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, DIP-28
+K
+F https://www.mouser.ca/datasheet/2/268/ATmega48A_PA_88A_PA_168A_PA_328_P_DS_DS40002061B-3050139.pdf
+$ENDCMP
+#
+$CMP LT8636JV#PBF
+D 42V, 5A/7A Peak Synchronous Step-Down Silent Switcher with 2.5uA Quiescent Current
+K
+F https://www.analog.com/LT8636/datasheet
+$ENDCMP
+#
+$CMP 61300621121
+D WR-PHD 2.54mm  Dual Pin Header THT 06p Wurth Elektronik WR-PHD Series, Series Number 6130, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination
+K
+F 
+$ENDCMP
+#
+$CMP 61301011121
+D WR-PHD 2.54mm Pin Header 10pin Wurth Elektronik 613 Series, 2.54mm Pitch 10 Way 1 Row Straight PCB Header, Solder Pin Termination, 3A
+K
+F http://www.farnell.com/datasheets/1442175.pdf?_ga=1.151831673.1948394759.1473026436
+$ENDCMP
+#
+$CMP 61300811121
+D WR-PHD 2.54mm Pin Header THT Straight 8p Wurth Elektronik WR-PHD Series, Series Number 6130, 2.54mm Pitch 8 Way 1 Row Straight Pin Header, Surface Mount
+K
+F http://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+$ENDCMP
+#
+$CMP 61300821121
+D WURTH ELEKTRONIK - 61300821121 - Board-To-Board Connector, Vertical, 2.54 mm, 8 Contacts, Header, WR-PHD Series, Through Hole
+K
+F https://componentsearchengine.com/Datasheets/2/61300821121.pdf
+$ENDCMP
+#
+$CMP 61300421121
+D Wurth Elektronik WR-PHD 6130, 2.54mm Pitch, 4 Way, 2 Row, Straight Pin Header, Through Hole
+K
+F https://katalog.we-online.de/em/datasheet/6130xx21121.pdf
+$ENDCMP
+#
+$CMP OPA4350UA
+D High-Speed, Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier Series
+K
+F http://www.ti.com/lit/ds/symlink/opa4350.pdf
+$ENDCMP
+#
+$CMP 691305140002
+D Pluggable Terminal Blocks WR-TBL Md3051 3.5mm 2Pin Hztl Hdr
+K
+F https://katalog.we-online.de/em/datasheet/691305140002.pdf
+$ENDCMP
+#
+$CMP MF-MSMF050-2
+D Fuse, PTC, Resettable, SMD, 1812, 500mA Bourns 0.5A Surface Mount Resettable Fuse, 15 V
+K
+F https://www.bourns.com/pdfs/mfmsmf.pdf
+$ENDCMP
+#
+$CMP BLM21BD272SN1L
+D BLM21_N1L Series EMI Suppression Filter 2700+/-25% at 100MHz 200mA @85
+K
+F https://www.murata.com/en-us/products/productdetail?partno=BLM21BD272SN1%23
+$ENDCMP
+#
+$CMP CG0603MLC-05E
+D Varistor, ESD Protector, 5VDC,20V,0603 Bourns MLC Series Power Varistor 0.5pF 20V 0603 Case
+K
+F http://www.farnell.com/datasheets/1785244.pdf
+$ENDCMP
+#
+$CMP NOJB107M006RWJ
+D Niobium Oxide Capacitors 6.3V 100uF 1210 ESR=1.7Ohms 20%
+K
+F https://datasheets.kyocera-avx.com/NOJ.pdf
+$ENDCMP
+#
+$CMP LFXTAL062487Cutt
+D Crystals 16MHz 22pF -10C 60C
+K
+F https://componentsearchengine.com/Datasheets/1/LFXTAL062487Cutt.pdf
+$ENDCMP
+#
+#End Doc Library

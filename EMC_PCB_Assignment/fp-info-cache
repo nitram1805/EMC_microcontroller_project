@@ -1,4 +1,4 @@
-23839630570472627
+23869008921525926
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88977,12 +88977,131 @@ rotary encoder illuminated switch vertical
 9
 8
 SamacSys_Parts
+61300821121
+61300821121-2
+Connector
+0
+8
+8
+SamacSys_Parts
+BLM21BD222SH1K
+BLM21_2 L=2.0 W=1.25 T=1.25
+Filter
+0
+2
+2
+SamacSys_Parts
+CAPPM3528X210N
+CASE B_1
+Capacitor
+0
+2
+2
+SamacSys_Parts
+DIP794W53P254L3467H457Q28N
+28P3 7.62 row pitch
+Integrated Circuit
+0
+28
+28
+SamacSys_Parts
+FUSC4632X85N
+MF-MSMF050
+Fuse
+0
+2
+2
+SamacSys_Parts
+HDRV4W64P254X254_2X2_508X508X854P
+61300421121-1
+Connector
+0
+4
+4
+SamacSys_Parts
+HDRV6W64P254_2X3_762X508X889P
+WR-PHD
+Connector
+0
+6
+6
+SamacSys_Parts
+HDRV8W64P0X254_1X8_2032X254X854P
+61300811121
+Connector
+0
+8
+8
+SamacSys_Parts
+HDRV10W64P0X254_1X10_2540X254X854P
+61301011121
+Connector
+0
+10
+10
+SamacSys_Parts
+LFXTAL062487Cutt
+LFXTAL062487Cutt-1
+Connector
+0
+4
+4
+SamacSys_Parts
+LT8636EVPBF
+LT8636EV#PBF
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+LT8636JVPBF
+LT8636JV#PBF-5
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+QFN50P500X500X100-33N-D
+ATMEGA16U2-MU
+Integrated Circuit
+0
+33
+33
+SamacSys_Parts
+SHDRRA2W80P0X350_1X2_1050X920X750P
+691305140002
+Connector
+0
+2
+2
+SamacSys_Parts
+SOIC127P600X175-14N
+D (R-PDSO-G14)
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+SOT95P280X145-5N
+DBV (R-PDSO-G5)
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+VARC1608X55N
+CG0603 Series
+Varistor
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
