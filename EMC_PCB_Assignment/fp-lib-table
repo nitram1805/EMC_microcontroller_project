@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprint_libraries")(type "KiCad")(uri "C:/Users/jarlp/Documents/Git/EMC_microcontroller_project/Footprint_libraries.pretty")(options "")(descr ""))
+)
